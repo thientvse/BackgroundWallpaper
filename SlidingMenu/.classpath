@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="src" path="/BackgroundHd-Data"/>
+	<classpathentry kind="lib" path="F:/Work/Vsmart/Thang 3-2016/Vsmart_R13136/VSmart/libs/universal-image-loader-1.9.1-with-sources.jar"/>
+	<classpathentry kind="lib" path="F:/SoftForAll/Project/SlidingMenu/libs/backendless.jar"/>
+	<classpathentry kind="lib" path="F:/Work/adt-bundle-windows-x86_64-20140702/adt-bundle-windows-x86_64-20140702/sdk/platforms/android-16/android.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/F:/Work/adt-bundle-windows-x86_64-20140702/adt-bundle-windows-x86_64-20140702/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/SoftForAll/Project/SlidingMenu/libs/universal-image-loader-1.9.1-with-sources.jar"/>
+	<classpathentry kind="lib" path="F:/Work/WorkSpace/Thang3-2016/Vsmart_R13136/SlirLibrary/libs/android-support-v4.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

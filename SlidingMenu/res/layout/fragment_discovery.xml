@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app1="http://schemas.android.com/apk/res/com.softforall.backgroundhd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/custom_actionbar" />
+
+    <com.softforall.backgroundhd.UI.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_header"
+        app:pstsDividerColor="@color/color_header"
+        app:pstsIndicatorColor="@color/color_white"
+        app:pstsTextAllCaps="true"
+        app:pstsUnderlineColor="@color/color_header"
+        app1:pstsIndicatorHeight="3dp"
+        app1:pstsShouldExpand="true"
+        app1:pstsUnderlineHeight="0dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ads"
+            android:layout_alignParentTop="true" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_gray_less_less" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ads"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_gray"
+            android:orientation="vertical" >
+
+            <com.startapp.android.publish.banner.Banner
+                android:id="@+id/startAppBanner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

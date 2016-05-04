@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BackgroundHD</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="hint_edt">Nhập tag...</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Khám phá</item>
+        <item>Yêu thích</item>
+        <item>Lịch sử</item>
+        <item>Cho điểm ứng dụng</item>
+        <item>Gửi phản hồi</item>
+        <item>Cài đặt</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_apps</item>
+        <item>@drawable/ic_star</item>
+        <item>@drawable/ic_history</item>
+        <item>@drawable/ic_thumb_up</item>
+        <item>@drawable/ic_message_alert</item>
+        <item>@drawable/ic_settings</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="str_library">Thư viện</string>
+    <string name="str_globse">Nổi bật</string>
+    <string name="str_recent">Gần đây</string>
+    <string name="str_globse_day">Nổi bật trong ngày</string>
+    <string name="str_favour">Yêu thích</string>
+    <string name="str_history">Lịch sử</string>
+    <string name="toast_saved">Wallpapaer saved to #</string>
+    <string name="toast_saved_failed">Sorry! Failed to save wallpaper</string>
+    <string name="toast_wallpaper_set">Wallpapaer updated!</string>
+    <string name="toast_wallpaper_set_failed">Sorry! Unable to set wallpapaer</string>
+    <string name="splash_error">Unable to download wallpapers. Verify your google\'s user name in settings or device doesn\'t have internet connection!</string>
+    <string name="set_wallpaper">Set</string>
+    <string name="download_wallpaper">Download</string>
+    <string name="msg_unknown_error">Sorry! Unknown error occurred.</string>
+    <string name="msg_wall_fetch_error">Sorry! Unable to fetch wallpaper(s). Verify app settings or device doesn\'t have internet connection.</string>
+    <string name="toast_enter_google_username">Please enter google username</string>
+    <string name="toast_enter_valid_grid_columns">Please enter valid number of columns</string>
+    <string name="toast_enter_gallery_name">Please enter gallery directory name</string>
+    <string name="lbl_google_username">Google username</string>
+    <string name="lbl_no_grid_columns">Number of grid columns</string>
+    <string name="lbl_gallery_name">Gallery directory name</string>
+    <string name="lbl_btn_save">Save</string>
+    <string name="btn_cancel">Để sau nha</string>
+    <string name="btn_confirm">Có</string>
+    <string name="title_dialog_point">Cho điểm ứng dụng</string>
+    <string name="content_dialog_point">Bạn có yêu thích Bacgroungs HD không? Nếu có, hãy viết cho tụi mình một đánh giá tốt trên cửa hàng Google. Sẽ giúp tụi mình nhiều lắm đó. Cám ơn trước nha!</string>
+    <string name="request">Vui lòng nhập phản hồi của bạn ở đây.</string>
+    <string name="offer_share_via">Share via.</string>
+    <string name="tongquan">Tổng quan</string>
+    <string name="title_xoa_cache">Xóa cache</string>
+    <string name="content_xoa_cache">Xóa nội dung cache ở vùng đệm</string>
+    <string name="title_nhan_thonbao">Nhận các thông báo</string>
+    <string name="title_nhan_thonbao_hinhnen_moi">Nhận thông báo khi có hình nền mới</string>
+    <string name="title_verion">Phiên bản</string>
+    <string name="title_gioithieu">Giới thiệu ứng dụng này</string>
+    <string name="title_gioithieu_friend">Hãy giới thiệu ứng dụng này cho bạn bè</string>
+    <string name="btn_tai_ve">Tải về</string>
+    <string name="btn_set_wall">Đặt làm hình nền</string>
+    
+    <string name="title_favourite">Thiết lập bộ hình nền yêu thích của bạn</string>
+    <string name="title_history">Những hình nền bạn đã sử dụng sẽ lưu tại đây</string>
+    
+
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_header" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_keyboard_backspace" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/btn_back"
+            android:gravity="left|center"
+            android:text="@string/action_settings"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size_large20" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ads"
+            android:background="@color/color_white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_tongquan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_around_content_area"
+                android:text="@string/tongquan"
+                android:textColor="@color/color_button_dialog"
+                android:textSize="@dimen/text_size_large18" />
+
+            <LinearLayout
+                android:id="@+id/xoa_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_around_content_area" >
+
+                <TextView
+                    android:id="@+id/txt_title_xoa_cache"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_xoa_cache"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/txt_content_xoa_cache"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/content_xoa_cache"
+                    android:textColor="@color/color_gray"
+                    android:textSize="@dimen/text_size_medium" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/color_gray_less" />
+
+            <LinearLayout
+                android:id="@+id/nhan_thonbao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_around_content_area"
+                android:paddingTop="10dp"
+                android:weightSum="5" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_nhan_thonbao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_nhan_thonbao"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:id="@+id/txt_content_nhan_thonbao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/title_nhan_thonbao_hinhnen_moi"
+                        android:textColor="@color/color_gray"
+                        android:textSize="@dimen/text_size_medium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/checbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_around_content_area"
+                android:text="@string/app_name"
+                android:textColor="@color/color_button_dialog"
+                android:textSize="@dimen/text_size_large18" />
+
+            <LinearLayout
+                android:id="@+id/phienban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_around_content_area" >
+
+                <TextView
+                    android:id="@+id/txt_phienban"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_verion"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/value_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:text="1.0.1"
+                    android:textColor="@color/color_gray"
+                    android:textSize="@dimen/text_size_medium" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/color_gray_less" />
+
+            <LinearLayout
+                android:id="@+id/gui_phan_hoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_around_content_area"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/txt_gui_phan_hoi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_gioithieu"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/content_gui_phanhoi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/title_gioithieu_friend"
+                    android:textColor="@color/color_gray"
+                    android:textSize="@dimen/text_size_medium" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ads"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_white"
+            android:orientation="vertical" >
+
+            <com.startapp.android.publish.banner.Banner
+                android:id="@+id/startAppBanner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
