@@ -1,3 +1,5 @@
+
+![Logo](https://github.com/thientvse/BackgroundWallpaper/blob/master/SlidingMenu/res/drawable-hdpi/header_image.jpg)
 ## Synopsis
 
 At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
